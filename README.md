@@ -62,10 +62,10 @@ Trening i test 3 różnych metod:
 
 ## 👥 Podział zadań w zespole
 
-| Osoba | Przypisane Zadania (ID) | Status |
+| Osoba | Przypisane Zadania (ID) |
 | :--- | :--- | :--- |
-| **[Osoba 1]** | ... | 🟡 W toku |
-| **[Osoba 2]** | ... | 🔴 Do zrobienia |
-| **[Osoba 3]** | ... | 🟢 Gotowe |
+| **[Franek]** | Podział danych,statystyka klas, przygotowanie danych, research gotowych rozwiązań ,wizualizacja podstawowa| 
+| **[Maciek]** | Filtry,Analiza pasmowa, analiza częstotliwościowa ,wizualizacja Spektrogramów|
+| **[Karol]** |Analiza Falkowa, odszumianie, wizualizacja skalogramów| 
 
 > **Notatka:** W połowie grudnia podsumowujemy wyniki Fazy 1 i ustalamy dokładny plan działania dla Fazy 2.
