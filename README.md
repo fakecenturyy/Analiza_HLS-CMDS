@@ -63,7 +63,7 @@ Trening i test 3 różnych metod:
 ## 👥 Podział zadań w zespole
 
 | Osoba | Przypisane Zadania (ID) |
-| :--- | :--- | :--- |
+| :--- | :--- 
 | **[Franek]** | Podział danych,statystyka klas, przygotowanie danych, research gotowych rozwiązań ,wizualizacja podstawowa| 
 | **[Maciek]** | Filtry,Analiza pasmowa, analiza częstotliwościowa ,wizualizacja Spektrogramów|
 | **[Karol]** |Analiza Falkowa, odszumianie, wizualizacja skalogramów| 
