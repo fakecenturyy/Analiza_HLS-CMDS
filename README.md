@@ -26,7 +26,7 @@
 ### ✅ Zadanie 2: Research
 - [ ] Sprawdzenie dostępnych kodów/repozytoriów w internecie (GitHub/Kaggle).
 - [ ] Analiza, do jakich celów dane były wcześniej wykorzystywane.
-
+-  [ ] Przykład wykorzystania tego datasetu https://github.com/torabiy/hls-cmds
 ### ✅ Zadanie 3: Preprocessing sygnałów (DSP)
 Zastosowanie i testowanie metod:
 - [ ] **Odszumianie** (denoising).
@@ -64,8 +64,8 @@ Trening i test 3 różnych metod:
 
 | Osoba | Przypisane Zadania (ID) |
 | :--- | :--- 
-| **[Franek]** | Podział danych,statystyka klas, przygotowanie danych, research gotowych rozwiązań ,wizualizacja podstawowa| 
+| **[Franek]** | Podział danych,statystyka klas, przygotowanie danych ,wizualizacja podstawowa| 
 | **[Maciek]** | Filtry,Analiza pasmowa, analiza częstotliwościowa ,wizualizacja Spektrogramów|
-| **[Karol]** |Analiza Falkowa, odszumianie, wizualizacja skalogramów| 
+| **[Karol]** |Analiza Falkowa, odszumianie, wizualizacja skalogramów,research gotowych rozwiązań| 
 
 > **Notatka:** W połowie grudnia podsumowujemy wyniki Fazy 1 i ustalamy dokładny plan działania dla Fazy 2.
