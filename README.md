@@ -26,7 +26,7 @@
 ### ✅ Zadanie 2: Research
 - [ ] Sprawdzenie dostępnych kodów/repozytoriów w internecie (GitHub/Kaggle).
 - [ ] Analiza, do jakich celów dane były wcześniej wykorzystywane.
--  [ ] Przykład wykorzystania tego datasetu https://github.com/torabiy/hls-cmds
+-   Przykład wykorzystania tego datasetu https://github.com/torabiy/hls-cmds
 ### ✅ Zadanie 3: Preprocessing sygnałów (DSP)
 Zastosowanie i testowanie metod:
 - [ ] **Odszumianie** (denoising).
