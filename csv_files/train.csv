@@ -1,196 +1,293 @@
-filename,label,source
-MIX/M0055.wav,Pathology,MIX
-LS/F_G_RMA.wav,Pathology,LS
-MIX/M0086.wav,Pathology,MIX
-MIX/M0035.wav,Pathology,MIX
-MIX/M0054.wav,Pathology,MIX
-MIX/M0038.wav,Pathology,MIX
-LS/M_W_RUA.wav,Pathology,LS
-MIX/M0003.wav,Pathology,MIX
-MIX/M0085.wav,Pathology,MIX
-MIX/M0057.wav,Pathology,MIX
-HS/M_LSM_RUSB.wav,Pathology,HS
-MIX/M0062.wav,Pathology,MIX
-MIX/M0084.wav,Pathology,MIX
-LS/M_W_RMA.wav,Pathology,LS
-LS/ M_W_LMA.wav,Pathology,LS
-HS/F_LDM_A.wav,Pathology,HS
-MIX/M0049.wav,Pathology,MIX
-HS/F_LSM_LUSB.wav,Pathology,HS
-HS/M_N_LLSB.wav,Normal,HS
-MIX/M0112.wav,Pathology,MIX
-MIX/M0040.wav,Pathology,MIX
-HS/M_LDM_LUSB.wav,Pathology,HS
-MIX/M0117.wav,Pathology,MIX
-HS/M_ESM_RUSB.wav,Pathology,HS
-MIX/M0136.wav,Pathology,MIX
-HS/F_N_A.wav,Normal,HS
-MIX/M0045.wav,Pathology,MIX
-MIX/M0021.wav,Pathology,MIX
-LS/F_R_LUA.wav,Pathology,LS
-MIX/M0121.wav,Pathology,MIX
-MIX/M0036.wav,Pathology,MIX
-HS/F_MSM_A.wav,Pathology,HS
-LS/F_N_LUA.wav,Normal,LS
-MIX/M0080.wav,Pathology,MIX
-MIX/M0059.wav,Pathology,MIX
-MIX/M0024.wav,Pathology,MIX
-LS/F_G_LLA.wav,Pathology,LS
-HS/F_LSM_A.wav,Pathology,HS
-LS/M_G_RLA.wav,Pathology,LS
-MIX/M0030.wav,Pathology,MIX
-MIX/M0053.wav,Pathology,MIX
-HS/M_MSM_A.wav,Pathology,HS
-MIX/M0091.wav,Pathology,MIX
-MIX/M0089.wav,Pathology,MIX
-MIX/M0101.wav,Pathology,MIX
-LS/M_PR_RMA.wav,Pathology,LS
-MIX/M0066.wav,Normal,MIX
-LS/F_C_RLA.wav,Pathology,LS
-LS/M_N_RLA.wav,Normal,LS
-MIX/M0122.wav,Normal,MIX
-LS/M_N_LLA.wav,Normal,LS
-LS/M_G_LMA.wav,Pathology,LS
-HS/F_S3_A.wav,Pathology,HS
-HS/F_N_LC.wav,Normal,HS
-MIX/M0096.wav,Pathology,MIX
-MIX/M0031.wav,Pathology,MIX
-MIX/M0102.wav,Pathology,MIX
-MIX/M0046.wav,Pathology,MIX
-MIX/M0060.wav,Pathology,MIX
-MIX/M0050.wav,Pathology,MIX
-MIX/M0073.wav,Pathology,MIX
-LS/F_N_LMA.wav,Normal,LS
-MIX/M0083.wav,Pathology,MIX
-LS/M_PR_LMA.wav,Pathology,LS
-LS/M_W_RLA.wav,Pathology,LS
-MIX/M0047.wav,Pathology,MIX
-LS/F_R_LMA.wav,Pathology,LS
-MIX/M0078.wav,Pathology,MIX
-MIX/M0082.wav,Pathology,MIX
-MIX/M0140.wav,Pathology,MIX
-MIX/M0105.wav,Pathology,MIX
-MIX/M0032.wav,Pathology,MIX
-HS/M_S3_LLSB.wav,Pathology,HS
-HS/F_S3_LLSB.wav,Pathology,HS
-MIX/M0064.wav,Pathology,MIX
-LS/F_G_RLA.wav,Pathology,LS
-MIX/M0075.wav,Pathology,MIX
-HS/M_LSM_LUSB.wav,Pathology,HS
-MIX/M0002.wav,Pathology,MIX
-HS/F_LDM_LLSB.wav,Pathology,HS
-MIX/M0116.wav,Pathology,MIX
-MIX/M0006.wav,Pathology,MIX
-HS/M_AVB_RC.wav,Pathology,HS
-MIX/M0022.wav,Pathology,MIX
-MIX/M0104.wav,Pathology,MIX
-HS/F_N_LLSB.wav,Normal,HS
-MIX/M0114.wav,Pathology,MIX
-HS/M_LDM_LLSB.wav,Pathology,HS
-MIX/M0138.wav,Pathology,MIX
-LS/M_R_LUA.wav,Pathology,LS
-MIX/M0070.wav,Pathology,MIX
-MIX/M0144.wav,Pathology,MIX
-LS/M_R_LLA.wav,Pathology,LS
-MIX/M0041.wav,Pathology,MIX
-LS/F_G_LUA.wav,Pathology,LS
-HS/M_LDM_LC.wav,Pathology,HS
-MIX/M0141.wav,Pathology,MIX
-LS/F_PR_LUA.wav,Pathology,LS
-LS/M_N_RUA.wav,Normal,LS
-LS/M_PR_LLA.wav,Pathology,LS
-MIX/M0130.wav,Pathology,MIX
-MIX/M0043.wav,Pathology,MIX
-MIX/M0072.wav,Pathology,MIX
-MIX/M0107.wav,Pathology,MIX
-HS/M_N_RUSB.wav,Normal,HS
-MIX/M0063.wav,Pathology,MIX
-HS/M_ESM_LUSB.wav,Pathology,HS
-MIX/M0013.wav,Pathology,MIX
-MIX/M0074.wav,Normal,MIX
-HS/F_N_LUSB.wav,Normal,HS
-HS/F_LSM_LLSB.wav,Pathology,HS
-MIX/M0018.wav,Pathology,MIX
-HS/F_ESM_RUSB.wav,Pathology,HS
-MIX/M0048.wav,Pathology,MIX
-HS/F_S4_RC.wav,Pathology,HS
-MIX/M0033.wav,Pathology,MIX
-LS/F_PR_LLA.wav,Pathology,LS
-MIX/M0077.wav,Pathology,MIX
-MIX/M0026.wav,Pathology,MIX
-MIX/M0118.wav,Pathology,MIX
-MIX/M0023.wav,Pathology,MIX
-MIX/M0001.wav,Pathology,MIX
-MIX/M0120.wav,Pathology,MIX
-LS/F_N_LLA.wav,Normal,LS
-MIX/M0094.wav,Pathology,MIX
-MIX/M0027.wav,Pathology,MIX
-MIX/M0142.wav,Pathology,MIX
-MIX/M0058.wav,Pathology,MIX
-MIX/M0087.wav,Pathology,MIX
-MIX/M0145.wav,Pathology,MIX
-MIX/M0011.wav,Pathology,MIX
-MIX/M0042.wav,Pathology,MIX
-MIX/M0028.wav,Pathology,MIX
-MIX/M0123.wav,Pathology,MIX
-MIX/M0133.wav,Pathology,MIX
-LS/M_G_LUA.wav,Pathology,LS
-HS/F_ESM_LLSB.wav,Pathology,HS
-MIX/M0115.wav,Pathology,MIX
-MIX/M0039.wav,Pathology,MIX
-MIX/M0061.wav,Pathology,MIX
-MIX/M0016.wav,Pathology,MIX
-HS/M_AVB_A.wav,Pathology,HS
-MIX/M0004.wav,Pathology,MIX
-HS/F_AF_LUSB.wav,Pathology,HS
-MIX/M0108.wav,Pathology,MIX
-MIX/M0019.wav,Pathology,MIX
-HS/M_S4_LUSB.wav,Pathology,HS
-MIX/M0051.wav,Pathology,MIX
-LS/M_C_RLA.wav,Pathology,LS
-MIX/M0110.wav,Pathology,MIX
-LS/M_PR_RUA.wav,Pathology,LS
-MIX/M0076.wav,Pathology,MIX
-HS/F_LDM_LUSB.wav,Pathology,HS
-LS/M_R_LMA.wav,Pathology,LS
-MIX/M0068.wav,Pathology,MIX
-MIX/M0099.wav,Pathology,MIX
-MIX/M0100.wav,Pathology,MIX
-HS/M_AF_LC.wav,Pathology,HS
-MIX/M0129.wav,Pathology,MIX
-LS/M_C_LUA.wav,Pathology,LS
-MIX/M0025.wav,Pathology,MIX
-MIX/M0007.wav,Pathology,MIX
-MIX/M0137.wav,Pathology,MIX
-LS/F_N_RMA.wav,Normal,LS
-MIX/M0044.wav,Pathology,MIX
-LS/F_W_RUA.wav,Pathology,LS
-MIX/M0092.wav,Pathology,MIX
-MIX/M0109.wav,Pathology,MIX
-LS/M_W_LUA.wav,Pathology,LS
-HS/M_N_LC.wav,Normal,HS
-MIX/M0008.wav,Pathology,MIX
-HS/M_AVB_LLSB.wav,Pathology,HS
-HS/F_S3_LC.wav,Pathology,HS
-MIX/M0103.wav,Pathology,MIX
-MIX/M0009.wav,Pathology,MIX
-HS/F_N_RC.wav,Normal,HS
-MIX/M0124.wav,Pathology,MIX
-MIX/M0081.wav,Pathology,MIX
-MIX/M0017.wav,Pathology,MIX
-LS/M_C_RUA.wav,Pathology,LS
-MIX/M0071.wav,Pathology,MIX
-LS/F_N_RUA.wav,Normal,LS
-HS/F_MSM_LUSB.wav,Pathology,HS
-HS/F_AF_A.wav,Pathology,HS
-MIX/M0079.wav,Pathology,MIX
-LS/M_G_LLA.wav,Pathology,LS
-MIX/M0065.wav,Pathology,MIX
-HS/M_ESM_A.wav,Pathology,HS
-MIX/M0127.wav,Pathology,MIX
-HS/M_MSM_RUSB.wav,Pathology,HS
-MIX/M0014.wav,Pathology,MIX
-MIX/M0143.wav,Pathology,MIX
-MIX/M0139.wav,Pathology,MIX
-MIX/M0106.wav,Pathology,MIX
-MIX/M0097.wav,Pathology,MIX
+filename,label,source,sound,body_location,patient_gender,sound id
+HS/F_MSM_A.wav,Pathology,HS,Mid Systolic Murmur,Apex,F,F_MSM_A
+HS/M_AVB_RC.wav,Pathology,HS,AV Block,RC,M,M_AVB_RC
+HS/M_AVB_LLSB.wav,Pathology,HS,AV Block,LLSB,M,M_AVB_LLSB
+MIX/L0106.wav,Pathology,MIX,Rhonchi,RC,M,L0106
+MIX/H0087.wav,Pathology,MIX,Atrial Fibrillation,LMA,M,H0087
+MIX/L0139.wav,Pathology,MIX,Wheezing,LC,M,L0139
+LS/M_N_LLA.wav,Normal,LS,Normal,LLA,M,M_N_LLA
+MIX/H0085.wav,Normal,MIX,Normal,LC,F,H0085
+MIX/L0073.wav,Pathology,MIX,Pleural Rub,LMA,M,L0073
+MIX/L0007.wav,Pathology,MIX,Pleural Rub,Apex,M,L0007
+MIX/L0083.wav,Pathology,MIX,Pleural Rub,LLSB,M,L0083
+MIX/L0027.wav,Pathology,MIX,Coarse Crackles,RMA,M,L0027
+LS/M_C_RLA.wav,Pathology,LS,Fine Crackles,RLA,M,M_C_RLA
+MIX/H0052.wav,Pathology,MIX,Early Systolic Murmur,LC,F,H0052
+MIX/H0090.wav,Pathology,MIX,Tachycardia,RUA,M,H0090
+MIX/L0086.wav,Pathology,MIX,Wheezing,LMA,M,L0086
+LS/F_N_RLA.wav,Normal,LS,Normal,RLA,F,F_N_RLA
+HS/F_ESM_RUSB.wav,Pathology,HS,Early Systolic Murmur,RUSB,F,F_ESM_RUSB
+MIX/H0013.wav,Pathology,MIX,Atrial Fibrillation,RC,F,H0013
+MIX/L0066.wav,Normal,MIX,Normal,LLSB,M,L0066
+HS/F_N_RC.wav,Normal,HS,Normal,RC,F,F_N_RC
+MIX/H0048.wav,Pathology,MIX,S4,RLA,F,H0048
+MIX/L0134.wav,Normal,MIX,Normal,LMA,M,L0134
+MIX/L0041.wav,Normal,MIX,Normal,LLA,F,L0041
+LS/M_W_RLA.wav,Pathology,LS,Wheezing,RLA,M,M_W_RLA
+MIX/L0016.wav,Pathology,MIX,Rhonchi,RLA,F,L0016
+MIX/H0014.wav,Pathology,MIX,Late Diastolic Murmur,LUA,F,H0014
+MIX/L0077.wav,Pathology,MIX,Rhonchi,RUA,F,L0077
+MIX/H0073.wav,Pathology,MIX,Mid Systolic Murmur,LMA,M,H0073
+MIX/L0140.wav,Normal,MIX,Normal,RLA,F,L0140
+MIX/H0140.wav,Pathology,MIX,Early Systolic Murmur,RLA,F,H0140
+HS/F_ESM_LLSB.wav,Pathology,HS,Early Systolic Murmur,LLSB,F,F_ESM_LLSB
+MIX/L0062.wav,Pathology,MIX,Coarse Crackles,RMA,F,L0062
+LS/M_R_LUA.wav,Pathology,LS,Rhonchi,LUA,M,M_R_LUA
+MIX/L0091.wav,Pathology,MIX,Rhonchi,RUSB,M,L0091
+LS/F_G_RMA.wav,Pathology,LS,Coarse Crackles,RMA,F,F_G_RMA
+MIX/L0124.wav,Pathology,MIX,Wheezing,RMA,M,L0124
+HS/F_S3_LLSB.wav,Pathology,HS,S3,LLSB,F,F_S3_LLSB
+MIX/H0005.wav,Pathology,MIX,AV Block,RUSB,M,H0005
+MIX/L0033.wav,Pathology,MIX,Fine Crackles,LUSB,F,L0033
+MIX/H0021.wav,Pathology,MIX,Late Systolic Murmur,LUSB,M,H0021
+MIX/H0111.wav,Normal,MIX,Normal,LLA,F,H0111
+LS/M_PR_RUA.wav,Pathology,LS,Pleural Rub,RUA,M,M_PR_RUA
+MIX/L0126.wav,Pathology,MIX,Fine Crackles,LLA,F,L0126
+MIX/L0101.wav,Pathology,MIX,Wheezing,RMA,M,L0101
+HS/F_LDM_LLSB.wav,Pathology,HS,Late Diastolic Murmur,LLSB,F,F_LDM_LLSB
+LS/M_PR_RMA.wav,Pathology,LS,Pleural Rub,RMA,M,M_PR_RMA
+MIX/H0136.wav,Pathology,MIX,Tachycardia,RUSB,M,H0136
+MIX/H0025.wav,Pathology,MIX,Atrial Fibrillation,RC,M,H0025
+MIX/H0010.wav,Pathology,MIX,Early Systolic Murmur,LUA,F,H0010
+MIX/H0009.wav,Pathology,MIX,Mid Systolic Murmur,LUA,M,H0009
+MIX/H0135.wav,Pathology,MIX,S4,LC,M,H0135
+LS/M_PR_LUA.wav,Pathology,LS,Pleural Rub,LUA,M,M_PR_LUA
+HS/M_S3_LUSB.wav,Pathology,HS,S3,LUSB,M,M_S3_LUSB
+HS/F_S3_A.wav,Pathology,HS,S3,Apex,F,F_S3_A
+LS/M_R_LMA.wav,Pathology,LS,Rhonchi,LMA,M,M_R_LMA
+MIX/L0028.wav,Pathology,MIX,Coarse Crackles,RC,F,L0028
+MIX/H0110.wav,Pathology,MIX,Early Systolic Murmur,RLA,F,H0110
+LS/F_PR_LMA.wav,Pathology,LS,Pleural Rub,LMA,F,F_PR_LMA
+HS/F_LDM_LUSB.wav,Pathology,HS,Late Diastolic Murmur,LUSB,F,F_LDM_LUSB
+MIX/H0041.wav,Pathology,MIX,Atrial Fibrillation,LLA,F,H0041
+MIX/L0114.wav,Pathology,MIX,Wheezing,Apex,M,L0114
+MIX/H0114.wav,Pathology,MIX,Atrial Fibrillation,Apex,M,H0114
+MIX/L0078.wav,Normal,MIX,Normal,RMA,M,L0078
+MIX/H0037.wav,Pathology,MIX,AV Block,LLSB,M,H0037
+MIX/L0019.wav,Pathology,MIX,Pleural Rub,RUA,M,L0019
+HS/F_N_A.wav,Normal,HS,Normal,Apex,F,F_N_A
+HS/M_S3_LLSB.wav,Pathology,HS,S3,LLSB,M,M_S3_LLSB
+MIX/H0008.wav,Pathology,MIX,Early Systolic Murmur,LMA,F,H0008
+MIX/L0069.wav,Pathology,MIX,Coarse Crackles,RLA,M,L0069
+MIX/L0135.wav,Normal,MIX,Normal,LC,M,L0135
+MIX/L0138.wav,Normal,MIX,Normal,LLA,M,L0138
+MIX/H0006.wav,Pathology,MIX,S3,RC,F,H0006
+MIX/L0141.wav,Pathology,MIX,Wheezing,Apex,M,L0141
+HS/F_N_LUSB.wav,Normal,HS,Normal,LUSB,F,F_N_LUSB
+HS/F_ESM_LUSB.wav,Pathology,HS,Early Systolic Murmur,LUSB,F,F_ESM_LUSB
+LS/M_G_LMA.wav,Pathology,LS,Coarse Crackles,LMA,M,M_G_LMA
+MIX/H0120.wav,Pathology,MIX,Early Systolic Murmur,LLA,F,H0120
+MIX/L0096.wav,Pathology,MIX,Rhonchi,LUA,M,L0096
+LS/M_G_LUA.wav,Pathology,LS,Coarse Crackles,LUA,M,M_G_LUA
+MIX/L0070.wav,Normal,MIX,Normal,LUA,F,L0070
+MIX/L0127.wav,Pathology,MIX,Wheezing,LLA,M,L0127
+MIX/L0060.wav,Pathology,MIX,Wheezing,LMA,M,L0060
+LS/F_R_LMA.wav,Pathology,LS,Rhonchi,LMA,F,F_R_LMA
+MIX/L0063.wav,Pathology,MIX,Pleural Rub,RUA,F,L0063
+MIX/H0070.wav,Pathology,MIX,Late Systolic Murmur,LUA,F,H0070
+MIX/L0020.wav,Normal,MIX,Normal,RLA,F,L0020
+MIX/H0107.wav,Normal,MIX,Normal,LLSB,M,H0107
+MIX/H0042.wav,Pathology,MIX,Mid Systolic Murmur,RUA,F,H0042
+MIX/L0131.wav,Pathology,MIX,Fine Crackles,LC,M,L0131
+MIX/L0132.wav,Pathology,MIX,Wheezing,LUA,M,L0132
+MIX/H0075.wav,Pathology,MIX,Early Systolic Murmur,LUSB,F,H0075
+MIX/H0055.wav,Pathology,MIX,Late Systolic Murmur,RC,M,H0055
+LS/F_G_RLA.wav,Pathology,LS,Coarse Crackles,RLA,F,F_G_RLA
+MIX/L0001.wav,Pathology,MIX,Rhonchi,LUSB,F,L0001
+MIX/H0003.wav,Pathology,MIX,Atrial Fibrillation,LMA,M,H0003
+HS/F_LSM_A.wav,Pathology,HS,Late Systolic Murmur,Apex,F,F_LSM_A
+LS/F_R_RLA.wav,Pathology,LS,Rhonchi,RLA,F,F_R_RLA
+MIX/H0030.wav,Pathology,MIX,S4,RC,F,H0030
+HS/M_MSM_A.wav,Pathology,HS,Mid Systolic Murmur,Apex,M,M_MSM_A
+HS/M_MSM_RC.wav,Pathology,HS,Mid Systolic Murmur,RC,M,M_MSM_RC
+MIX/L0094.wav,Pathology,MIX,Rhonchi,LC,M,L0094
+MIX/L0123.wav,Pathology,MIX,Wheezing,LMA,M,L0123
+MIX/L0120.wav,Pathology,MIX,Fine Crackles,LLA,F,L0120
+MIX/H0144.wav,Pathology,MIX,AV Block,LUA,F,H0144
+MIX/H0039.wav,Normal,MIX,Normal,LC,M,H0039
+MIX/H0093.wav,Pathology,MIX,AV Block,LMA,M,H0093
+MIX/H0139.wav,Pathology,MIX,S3,LC,M,H0139
+MIX/L0095.wav,Normal,MIX,Normal,Apex,F,L0095
+LS/M_C_LUA.wav,Pathology,LS,Fine Crackles,LUA,M,M_C_LUA
+LS/M_R_RLA.wav,Pathology,LS,Rhonchi,RLA,M,M_R_RLA
+MIX/L0089.wav,Pathology,MIX,Wheezing,LC,M,L0089
+MIX/H0017.wav,Pathology,MIX,S3,RC,F,H0017
+MIX/H0074.wav,Normal,MIX,Normal,RUA,F,H0074
+MIX/H0027.wav,Pathology,MIX,Late Diastolic Murmur,RMA,M,H0027
+MIX/L0005.wav,Pathology,MIX,Fine Crackles,RUSB,M,L0005
+HS/M_MSM_LUSB.wav,Pathology,HS,Mid Systolic Murmur,LUSB,M,M_MSM_LUSB
+MIX/L0032.wav,Pathology,MIX,Pleural Rub,LUA,F,L0032
+HS/M_ESM_LUSB.wav,Pathology,HS,Early Systolic Murmur,LUSB,M,M_ESM_LUSB
+MIX/L0038.wav,Normal,MIX,Normal,LLSB,F,L0038
+MIX/L0121.wav,Pathology,MIX,Wheezing,LLA,F,L0121
+MIX/L0023.wav,Normal,MIX,Normal,LC,M,L0023
+MIX/L0099.wav,Pathology,MIX,Fine Crackles,RUSB,F,L0099
+MIX/H0080.wav,Pathology,MIX,Mid Systolic Murmur,LUSB,M,H0080
+MIX/H0056.wav,Pathology,MIX,AV Block,LUSB,F,H0056
+MIX/L0037.wav,Normal,MIX,Normal,LLSB,M,L0037
+MIX/L0109.wav,Pathology,MIX,Fine Crackles,LLA,F,L0109
+MIX/L0143.wav,Pathology,MIX,Wheezing,RLA,F,L0143
+MIX/L0021.wav,Pathology,MIX,Coarse Crackles,LUSB,M,L0021
+MIX/L0067.wav,Pathology,MIX,Rhonchi,RUA,F,L0067
+MIX/H0122.wav,Normal,MIX,Normal,RC,M,H0122
+MIX/L0010.wav,Pathology,MIX,Coarse Crackles,LUA,F,L0010
+MIX/H0113.wav,Pathology,MIX,Mid Systolic Murmur,RUSB,F,H0113
+MIX/H0049.wav,Pathology,MIX,S4,RUA,M,H0049
+MIX/H0035.wav,Pathology,MIX,S4,RLA,M,H0035
+MIX/L0029.wav,Pathology,MIX,Pleural Rub,LC,M,L0029
+MIX/L0100.wav,Pathology,MIX,Coarse Crackles,LLSB,F,L0100
+HS/M_T_LUSB.wav,Pathology,HS,Tachycardia,LUSB,M,M_T_LUSB
+MIX/L0092.wav,Pathology,MIX,Wheezing,RC,M,L0092
+MIX/H0026.wav,Pathology,MIX,S3,LUSB,F,H0026
+MIX/H0143.wav,Pathology,MIX,Early Systolic Murmur,RLA,F,H0143
+MIX/H0065.wav,Pathology,MIX,Atrial Fibrillation,Apex,F,H0065
+LS/M_W_LUA.wav,Pathology,LS,Wheezing,LUA,M,M_W_LUA
+MIX/L0006.wav,Pathology,MIX,Pleural Rub,RC,F,L0006
+MIX/L0039.wav,Pathology,MIX,Wheezing,LC,M,L0039
+MIX/L0034.wav,Pathology,MIX,Coarse Crackles,RC,M,L0034
+HS/M_LDM_LC.wav,Pathology,HS,Late Diastolic Murmur,LC,M,M_LDM_LC
+MIX/H0091.wav,Pathology,MIX,Atrial Fibrillation,RUSB,M,H0091
+MIX/L0093.wav,Pathology,MIX,Coarse Crackles,LMA,M,L0093
+HS/M_N_LC.wav,Normal,HS,Normal,LC,M,M_N_LC
+MIX/L0075.wav,Pathology,MIX,Pleural Rub,LUSB,F,L0075
+MIX/L0002.wav,Normal,MIX,Normal,RLA,F,L0002
+LS/M_N_RMA.wav,Normal,LS,Normal,RMA,M,M_N_RMA
+MIX/H0050.wav,Pathology,MIX,Early Systolic Murmur,LUSB,F,H0050
+MIX/H0067.wav,Pathology,MIX,Atrial Fibrillation,RUA,F,H0067
+MIX/H0094.wav,Pathology,MIX,Late Systolic Murmur,LC,M,H0094
+MIX/H0117.wav,Pathology,MIX,Early Systolic Murmur,RMA,M,H0117
+MIX/L0111.wav,Pathology,MIX,Fine Crackles,LLA,F,L0111
+MIX/L0133.wav,Pathology,MIX,Fine Crackles,Apex,F,L0133
+LS/M_W_RMA.wav,Pathology,LS,Wheezing,RMA,M,M_W_RMA
+MIX/H0047.wav,Pathology,MIX,Atrial Fibrillation,RMA,M,H0047
+MIX/L0024.wav,Pathology,MIX,Wheezing,LUSB,M,L0024
+MIX/H0061.wav,Pathology,MIX,S4,LLSB,F,H0061
+LS/M_R_LLA.wav,Pathology,LS,Rhonchi,LLA,M,M_R_LLA
+LS/M_PR_LMA.wav,Pathology,LS,Pleural Rub,LMA,M,M_PR_LMA
+MIX/L0012.wav,Pathology,MIX,Rhonchi,RMA,F,L0012
+LS/F_N_RUA.wav,Normal,LS,Normal,RUA,F,F_N_RUA
+MIX/L0022.wav,Pathology,MIX,Fine Crackles,LMA,M,L0022
+MIX/H0133.wav,Normal,MIX,Normal,Apex,F,H0133
+LS/M_PR_RLA.wav,Pathology,LS,Pleural Rub,RLA,M,M_PR_RLA
+MIX/H0062.wav,Pathology,MIX,Tachycardia,RMA,F,H0062
+LS/M_PR_LLA.wav,Pathology,LS,Pleural Rub,LLA,M,M_PR_LLA
+HS/F_LDM_A.wav,Pathology,HS,Late Diastolic Murmur,Apex,F,F_LDM_A
+HS/M_AF_LC.wav,Pathology,HS,Atrial Fibrillation,LC,M,M_AF_LC
+MIX/H0023.wav,Pathology,MIX,Tachycardia,LC,M,H0023
+MIX/H0012.wav,Pathology,MIX,AV Block,RMA,F,H0012
+LS/F_W_RUA.wav,Pathology,LS,Wheezing,RUA,F,F_W_RUA
+MIX/H0084.wav,Pathology,MIX,Early Systolic Murmur,LMA,M,H0084
+MIX/L0055.wav,Pathology,MIX,Fine Crackles,RC,M,L0055
+MIX/L0056.wav,Pathology,MIX,Rhonchi,LUSB,F,L0056
+MIX/L0113.wav,Pathology,MIX,Rhonchi,RUSB,F,L0113
+MIX/L0103.wav,Pathology,MIX,Wheezing,LLA,F,L0103
+MIX/L0013.wav,Pathology,MIX,Pleural Rub,RC,F,L0013
+MIX/H0024.wav,Pathology,MIX,S4,LUSB,M,H0024
+MIX/L0064.wav,Pathology,MIX,Pleural Rub,Apex,M,L0064
+LS/M_W_RUA.wav,Pathology,LS,Wheezing,RUA,M,M_W_RUA
+MIX/H0131.wav,Pathology,MIX,S4,LC,M,H0131
+MIX/H0060.wav,Pathology,MIX,Late Diastolic Murmur,LMA,M,H0060
+MIX/L0115.wav,Pathology,MIX,Fine Crackles,LLA,F,L0115
+MIX/L0047.wav,Pathology,MIX,Rhonchi,RMA,M,L0047
+MIX/H0076.wav,Pathology,MIX,Mid Systolic Murmur,LMA,F,H0076
+MIX/H0098.wav,Pathology,MIX,Tachycardia,LUSB,M,H0098
+MIX/L0042.wav,Pathology,MIX,Coarse Crackles,RUA,F,L0042
+MIX/L0048.wav,Pathology,MIX,Wheezing,RLA,F,L0048
+MIX/L0088.wav,Pathology,MIX,Rhonchi,LC,M,L0088
+MIX/L0052.wav,Pathology,MIX,Pleural Rub,LC,F,L0052
+MIX/H0088.wav,Pathology,MIX,S4,LC,M,H0088
+MIX/L0015.wav,Pathology,MIX,Coarse Crackles,LUA,F,L0015
+HS/M_LSM_LUSB.wav,Pathology,HS,Late Systolic Murmur,LUSB,M,M_LSM_LUSB
+HS/F_LSM_LUSB.wav,Pathology,HS,Late Systolic Murmur,LUSB,F,F_LSM_LUSB
+MIX/H0082.wav,Pathology,MIX,Late Systolic Murmur,LUA,F,H0082
+MIX/L0043.wav,Pathology,MIX,Pleural Rub,LLSB,M,L0043
+MIX/H0109.wav,Pathology,MIX,Mid Systolic Murmur,LLA,F,H0109
+MIX/H0007.wav,Pathology,MIX,Tachycardia,Apex,M,H0007
+MIX/L0040.wav,Pathology,MIX,Rhonchi,LC,M,L0040
+MIX/L0081.wav,Pathology,MIX,Wheezing,LLSB,F,L0081
+MIX/H0132.wav,Pathology,MIX,S3,LUA,M,H0132
+MIX/L0009.wav,Pathology,MIX,Wheezing,LUA,M,L0009
+MIX/H0130.wav,Pathology,MIX,Early Systolic Murmur,LLSB,F,H0130
+MIX/L0125.wav,Normal,MIX,Normal,LUSB,F,L0125
+MIX/H0138.wav,Pathology,MIX,Tachycardia,LLA,M,H0138
+MIX/L0136.wav,Pathology,MIX,Wheezing,RUSB,M,L0136
+MIX/H0127.wav,Pathology,MIX,S3,LLA,M,H0127
+MIX/H0033.wav,Pathology,MIX,Late Systolic Murmur,LUSB,F,H0033
+MIX/H0126.wav,Normal,MIX,Normal,LLA,F,H0126
+MIX/H0019.wav,Pathology,MIX,Tachycardia,RUA,M,H0019
+MIX/H0028.wav,Pathology,MIX,AV Block,RC,F,H0028
+MIX/L0050.wav,Pathology,MIX,Wheezing,LUSB,F,L0050
+MIX/L0049.wav,Pathology,MIX,Rhonchi,RUA,M,L0049
+MIX/H0142.wav,Pathology,MIX,Mid Systolic Murmur,RMA,F,H0142
+HS/M_N_RUSB.wav,Normal,HS,Normal,RUSB,M,M_N_RUSB
+MIX/H0053.wav,Pathology,MIX,Atrial Fibrillation,LLSB,F,H0053
+MIX/L0008.wav,Pathology,MIX,Pleural Rub,LMA,F,L0008
+MIX/H0134.wav,Pathology,MIX,AV Block,LMA,M,H0134
+MIX/L0065.wav,Pathology,MIX,Pleural Rub,Apex,F,L0065
+HS/M_LDM_LLSB.wav,Pathology,HS,Late Diastolic Murmur,LLSB,M,M_LDM_LLSB
+MIX/H0011.wav,Pathology,MIX,S4,Apex,M,H0011
+MIX/H0100.wav,Pathology,MIX,Late Systolic Murmur,LLSB,F,H0100
+MIX/H0063.wav,Pathology,MIX,S4,RUA,F,H0063
+MIX/H0068.wav,Pathology,MIX,S3,RUSB,M,H0068
+MIX/L0104.wav,Pathology,MIX,Fine Crackles,LUSB,M,L0104
+MIX/L0118.wav,Pathology,MIX,Fine Crackles,RMA,M,L0118
+MIX/L0014.wav,Pathology,MIX,Rhonchi,LUA,F,L0014
+LS/F_G_LMA.wav,Pathology,LS,Coarse Crackles,LMA,F,F_G_LMA
+MIX/H0108.wav,Pathology,MIX,Late Systolic Murmur,LUA,F,H0108
+HS/F_T_A.wav,Pathology,HS,Tachycardia,Apex,F,F_T_A
+LS/F_G_LLA.wav,Pathology,LS,Coarse Crackles,LLA,F,F_G_LLA
+MIX/H0112.wav,Pathology,MIX,Late Systolic Murmur,LLA,F,H0112
+MIX/L0004.wav,Pathology,MIX,Coarse Crackles,Apex,F,L0004
+MIX/H0118.wav,Pathology,MIX,Tachycardia,RMA,M,H0118
+MIX/L0074.wav,Normal,MIX,Normal,RUA,F,L0074
+MIX/L0017.wav,Pathology,MIX,Coarse Crackles,RC,F,L0017
+MIX/H0043.wav,Pathology,MIX,Tachycardia,LLSB,M,H0043
+MIX/H0092.wav,Pathology,MIX,S4,RC,M,H0092
+HS/M_MSM_RUSB.wav,Pathology,HS,Mid Systolic Murmur,RUSB,M,M_MSM_RUSB
+MIX/L0129.wav,Pathology,MIX,Wheezing,Apex,F,L0129
+LS/M_G_RLA.wav,Pathology,LS,Coarse Crackles,RLA,M,M_G_RLA
+MIX/H0097.wav,Pathology,MIX,Late Diastolic Murmur,RUSB,F,H0097
+LS/F_N_LLA.wav,Normal,LS,Normal,LLA,F,F_N_LLA
+MIX/H0072.wav,Pathology,MIX,S3,Apex,M,H0072
+MIX/H0044.wav,Normal,MIX,Normal,RC,M,H0044
+LS/M_R_RUA.wav,Pathology,LS,Rhonchi,RUA,M,M_R_RUA
+MIX/L0030.wav,Pathology,MIX,Pleural Rub,RC,F,L0030
+HS/M_LSM_RUSB.wav,Pathology,HS,Late Systolic Murmur,RUSB,M,M_LSM_RUSB
+HS/M_AVB_A.wav,Pathology,HS,AV Block,Apex,M,M_AVB_A
+HS/F_T_RC.wav,Pathology,HS,Tachycardia,LC,F,F_T_RC
+MIX/H0036.wav,Pathology,MIX,S3,LUA,M,H0036
+MIX/H0022.wav,Pathology,MIX,AV Block,LMA,M,H0022
+MIX/H0106.wav,Normal,MIX,Normal,RC,M,H0106
+MIX/L0119.wav,Pathology,MIX,Wheezing,LLA,F,L0119
+MIX/L0061.wav,Pathology,MIX,Rhonchi,LLSB,F,L0061
+LS/ M_W_LMA.wav,Pathology,LS,Wheezing,LMA,M,M_W_LMA
+LS/F_N_LUA.wav,Normal,LS,Normal,LUA,F,F_N_LUA
+MIX/H0071.wav,Pathology,MIX,S3,RUSB,M,H0071
+MIX/H0096.wav,Normal,MIX,Normal,LUA,M,H0096
+MIX/H0099.wav,Pathology,MIX,AV Block,RUSB,F,H0099
+MIX/H0040.wav,Pathology,MIX,Tachycardia,LC,M,H0040
+HS/F_MSM_LLSB.wav,Pathology,HS,Mid Systolic Murmur,LLSB,F,F_MSM_LLSB
+MIX/H0102.wav,Pathology,MIX,Atrial Fibrillation,RLA,M,H0102
+MIX/H0054.wav,Pathology,MIX,Late Diastolic Murmur,RUSB,F,H0054
+MIX/H0078.wav,Pathology,MIX,Late Systolic Murmur,RMA,M,H0078
+MIX/L0112.wav,Pathology,MIX,Pleural Rub,LLA,F,L0112
+HS/F_N_LLSB.wav,Normal,HS,Normal,LLSB,F,F_N_LLSB
+MIX/H0079.wav,Pathology,MIX,Tachycardia,LC,F,H0079
+MIX/H0145.wav,Pathology,MIX,Late Diastolic Murmur,RUSB,M,H0145
+MIX/H0001.wav,Pathology,MIX,Late Systolic Murmur,LUSB,F,H0001
+MIX/H0064.wav,Pathology,MIX,S4,Apex,M,H0064
+MIX/L0117.wav,Pathology,MIX,Rhonchi,RMA,M,L0117
+MIX/L0057.wav,Pathology,MIX,Coarse Crackles,RLA,F,L0057
+MIX/L0036.wav,Normal,MIX,Normal,LUA,M,L0036
+LS/F_G_LUA.wav,Pathology,LS,Coarse Crackles,LUA,F,F_G_LUA
+MIX/L0058.wav,Pathology,MIX,Rhonchi,RUSB,M,L0058
+LS/M_N_LUA.wav,Normal,LS,Normal,LUA,M,M_N_LUA
+HS/F_LSM_LLSB.wav,Pathology,HS,Late Systolic Murmur,LLSB,F,F_LSM_LLSB
+HS/M_S4_LUSB.wav,Pathology,HS,S4,LUSB,M,M_S4_LUSB
+MIX/L0084.wav,Normal,MIX,Normal,LMA,M,L0084
+MIX/H0051.wav,Pathology,MIX,Tachycardia,RC,F,H0051
+MIX/H0124.wav,Pathology,MIX,AV Block,RMA,M,H0124
+HS/F_AF_LUSB.wav,Pathology,HS,Atrial Fibrillation,LUSB,F,F_AF_LUSB
+MIX/H0103.wav,Normal,MIX,Normal,LLA,F,H0103
+MIX/H0066.wav,Normal,MIX,Normal,LLSB,M,H0066
+MIX/H0081.wav,Pathology,MIX,Late Systolic Murmur,LLSB,F,H0081

@@ -1,26 +1,21 @@
-filename,label,source
-MIX/M0090.wav,Pathology,MIX
-MIX/M0034.wav,Pathology,MIX
-LS/M_N_LMA.wav,Normal,LS
-MIX/M0088.wav,Pathology,MIX
-LS/M_PR_LUA.wav,Pathology,LS
-HS/M_AF_RUSB.wav,Pathology,HS
-MIX/M0005.wav,Pathology,MIX
-HS/F_MSM_LLSB.wav,Pathology,HS
-MIX/M0125.wav,Pathology,MIX
-MIX/M0037.wav,Pathology,MIX
-MIX/M0126.wav,Pathology,MIX
-HS/M_MSM_RC.wav,Pathology,HS
-HS/F_ESM_LUSB.wav,Pathology,HS
-MIX/M0069.wav,Pathology,MIX
-MIX/M0067.wav,Pathology,MIX
-MIX/M0020.wav,Pathology,MIX
-LS/M_PR_RLA.wav,Pathology,LS
-MIX/M0119.wav,Pathology,MIX
-HS/M_MSM_LUSB.wav,Pathology,HS
-HS/M_T_LUSB.wav,Pathology,HS
-LS/M_N_RMA.wav,Normal,LS
-MIX/M0015.wav,Pathology,MIX
-MIX/M0012.wav,Pathology,MIX
-MIX/M0095.wav,Pathology,MIX
-LS/M_N_LUA.wav,Normal,LS
+filename,label,source,sound,body_location,patient_gender,sound id
+MIX/H0095.wav,Pathology,MIX,Mid Systolic Murmur,Apex,F,H0095
+MIX/H0032.wav,Pathology,MIX,Tachycardia,LUA,F,H0032
+MIX/L0116.wav,Pathology,MIX,Coarse Crackles,RUA,M,L0116
+MIX/H0020.wav,Pathology,MIX,Late Diastolic Murmur,RLA,F,H0020
+LS/M_G_LLA.wav,Pathology,LS,Coarse Crackles,LLA,M,M_G_LLA
+MIX/L0018.wav,Pathology,MIX,Wheezing,RMA,F,L0018
+MIX/H0015.wav,Pathology,MIX,Late Diastolic Murmur,LUA,F,H0015
+HS/F_N_RUSB.wav,Normal,HS,Normal,RUSB,F,F_N_RUSB
+LS/F_C_LUA.wav,Pathology,LS,Fine Crackles,LUA,F,F_C_LUA
+MIX/H0101.wav,Pathology,MIX,Late Systolic Murmur,RMA,M,H0101
+HS/F_S4_RC.wav,Pathology,HS,S4,RC,F,F_S4_RC
+MIX/H0029.wav,Pathology,MIX,Tachycardia,LC,M,H0029
+HS/F_MSM_LUSB.wav,Pathology,HS,Mid Systolic Murmur,LUSB,F,F_MSM_LUSB
+MIX/H0129.wav,Pathology,MIX,Tachycardia,Apex,F,H0129
+MIX/H0121.wav,Pathology,MIX,AV Block,LLA,F,H0121
+MIX/H0059.wav,Pathology,MIX,S3,RLA,F,H0059
+MIX/L0090.wav,Pathology,MIX,Rhonchi,RUA,M,L0090
+MIX/H0119.wav,Pathology,MIX,S3,LLA,F,H0119
+MIX/H0069.wav,Pathology,MIX,Late Systolic Murmur,RLA,M,H0069
+MIX/L0054.wav,Pathology,MIX,Wheezing,RUSB,F,L0054
