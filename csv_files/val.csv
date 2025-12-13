@@ -1,4 +1,23 @@
 filename,label,source,sound,body_location,patient_gender,sound id
+MIX/H0079.wav,Pathology,MIX,Tachycardia,LC,F,H0079
+MIX/H0145.wav,Pathology,MIX,Late Diastolic Murmur,RUSB,M,H0145
+MIX/H0001.wav,Pathology,MIX,Late Systolic Murmur,LUSB,F,H0001
+MIX/H0064.wav,Pathology,MIX,S4,Apex,M,H0064
+MIX/L0117.wav,Pathology,MIX,Rhonchi,RMA,M,L0117
+MIX/L0057.wav,Pathology,MIX,Coarse Crackles,RLA,F,L0057
+MIX/L0036.wav,Normal,MIX,Normal,LUA,M,L0036
+LS/F_G_LUA.wav,Pathology,LS,Coarse Crackles,LUA,F,F_G_LUA
+MIX/L0058.wav,Pathology,MIX,Rhonchi,RUSB,M,L0058
+LS/M_N_LUA.wav,Normal,LS,Normal,LUA,M,M_N_LUA
+HS/F_LSM_LLSB.wav,Pathology,HS,Late Systolic Murmur,LLSB,F,F_LSM_LLSB
+HS/M_S4_LUSB.wav,Pathology,HS,S4,LUSB,M,M_S4_LUSB
+MIX/L0084.wav,Normal,MIX,Normal,LMA,M,L0084
+MIX/H0051.wav,Pathology,MIX,Tachycardia,RC,F,H0051
+MIX/H0124.wav,Pathology,MIX,AV Block,RMA,M,H0124
+HS/F_AF_LUSB.wav,Pathology,HS,Atrial Fibrillation,LUSB,F,F_AF_LUSB
+MIX/H0103.wav,Normal,MIX,Normal,LLA,F,H0103
+MIX/H0066.wav,Normal,MIX,Normal,LLSB,M,H0066
+MIX/H0081.wav,Pathology,MIX,Late Systolic Murmur,LLSB,F,H0081
 MIX/H0095.wav,Pathology,MIX,Mid Systolic Murmur,Apex,F,H0095
 MIX/H0032.wav,Pathology,MIX,Tachycardia,LUA,F,H0032
 MIX/L0116.wav,Pathology,MIX,Coarse Crackles,RUA,M,L0116
