@@ -54,7 +54,7 @@ for _, row in mix_df.iterrows():
 full_df = pd.DataFrame(all_data).sample(frac=1, random_state=42).reset_index(drop=True)
 
 n = len(full_df)
-train_end = int(n * 0.75)
+train_end = int(n * 0.7)
 val_end = int(n * 0.8)
 
 train_df = full_df.iloc[:train_end]
