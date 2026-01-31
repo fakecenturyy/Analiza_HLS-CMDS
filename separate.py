@@ -26,29 +26,42 @@ def get_label(condition):
     return 'Pathology'
 
 for _, row in hs_df.iterrows():
+    sid = str(row['Heart Sound ID']).strip()
     all_data.append({
-        'filename': f"HS/{row['Heart Sound ID']}.wav",
+        'filename': f"HS/{sid}.wav",
         'label': get_label(row['Heart Sound Type']),
         'source': 'HS',
+        'modality': 'HS',
+        'sound_id': sid,
     })
 
 for _, row in ls_df.iterrows():
+    sid = str(row['Lung Sound ID']).strip()
     all_data.append({
-        'filename': f"LS/{row['Lung Sound ID']}.wav",
+        'filename': f"LS/{sid}.wav",
         'label': get_label(row['Lung Sound Type']),
         'source': 'LS',
+        'modality': 'LS',
+        'sound_id': sid,
     })
 
 for _, row in mix_df.iterrows():
+    hs_id = str(row['Heart Sound ID']).strip()
+    ls_id = str(row['Lung Sound ID']).strip()
+
     all_data.append({
-        'filename': f"MIX/{row['Heart Sound ID']}.wav",
+        'filename': f"MIX/{hs_id}.wav",
         'label': get_label(row['Heart Sound Type']),
         'source': 'MIX',
+        'modality': 'HS',
+        'sound_id': hs_id,
     })
     all_data.append({
-        'filename': f"MIX/{row['Lung Sound ID']}.wav",
+        'filename': f"MIX/{ls_id}.wav",
         'label': get_label(row['Lung Sound Type']),
         'source': 'MIX',
+        'modality': 'LS',
+        'sound_id': ls_id,
     })
 
 full_df = pd.DataFrame(all_data).sample(frac=1, random_state=42).reset_index(drop=True)
@@ -67,4 +80,4 @@ test_df.to_csv(csv_out("test_partial.csv"), index=False)
 
 print(f"Files created: Train_partial ({len(train_df)}), Va_partiall ({len(val_df)}), Test_partial ({len(test_df)})")
 print("\nPreview of train.csv:")
-print(train_df[['filename', 'label', 'source']].head())
+print(train_df[['filename', 'label', 'source', 'modality', 'sound_id']].head())
