@@ -12,6 +12,37 @@ def _is_normal_label(label) -> bool:
     return str(label).strip().lower() == "normal"
 
 
+def _modality_from_row(row: pd.Series, rel_path: str) -> str:
+    # 1) Jeśli już jest w CSV, bierz bez kombinowania
+    m = str(row.get("modality", "")).strip().upper()
+    if m in ("HS", "LS"):
+        return m
+
+    # 2) Po source
+    source = str(row.get("source", "")).strip().upper()
+    if source in ("HS", "LS"):
+        return source
+
+    # 3) source=MIX: po ID lub nazwie pliku
+    if source == "MIX":
+        # w niesegmentowanych CSV masz często "sound id"
+        sid = str(row.get("sound id", "")).strip()
+        if sid:
+            c = sid[0].upper()
+            if c == "H":
+                return "HS"
+            if c == "L":
+                return "LS"
+
+        base = os.path.basename(rel_path).strip().lower()  # np. H0085.wav / L0106.wav
+        if base.startswith("h"):
+            return "HS"
+        if base.startswith("l"):
+            return "LS"
+
+    return "UNKNOWN"
+
+
 def segment_from_split_csv(
     csv_path: str,
     audio_root: str = "Sound",
@@ -26,9 +57,7 @@ def segment_from_split_csv(
     if missing:
         raise ValueError(f"CSV {csv_path} missing columns: {sorted(missing)}")
 
-    # nazwa splitu: train.csv -> train, csv_files/train.csv -> train
     split_name = os.path.splitext(os.path.basename(csv_path))[0]
-
     new_segments = []
 
     print(f"[{split_name}] Przetwarzam {len(df)} plików z {csv_path}...")
@@ -37,6 +66,8 @@ def segment_from_split_csv(
         rel_path = str(row["filename"]).strip().replace("\\", "/")
         label_text = row["label"]
         source = str(row["source"]).strip() if "source" in df.columns else "UNKNOWN"
+
+        modality = _modality_from_row(row, rel_path)
 
         input_path = os.path.join(audio_root, rel_path)
 
@@ -47,7 +78,6 @@ def segment_from_split_csv(
                 input_path = input_path_alt
 
         if not os.path.exists(input_path):
-            # plik z CSV nie istnieje na dysku -> pomijamy
             continue
 
         try:
@@ -76,7 +106,6 @@ def segment_from_split_csv(
             out_path = os.path.join(out_dir, seg_name)
             sf.write(out_path, segment, sr)
 
-            # zapisuj ścieżkę względną od output_root (wygodne do późniejszego użycia)
             seg_rel = os.path.join(split_name, f"{source}_segmented", seg_name).replace("\\", "/")
             new_segments.append(
                 {
@@ -84,6 +113,7 @@ def segment_from_split_csv(
                     "label": 0 if is_normal else 1,
                     "label_text": "Normal" if is_normal else "Pathology",
                     "source": source,
+                    "modality": modality,              # <- NOWE
                     "original_filename": rel_path,
                 }
             )
@@ -95,7 +125,9 @@ def segment_from_split_csv(
     print(f"[{split_name}] Sukces! Stworzono {len(new_segments)} segmentów.")
     if new_segments:
         out_df = pd.DataFrame(new_segments)
-        print(out_df["label"].value_counts(normalize=True))
+        print("Rozkład label:", out_df["label"].value_counts(normalize=True))
+        if "modality" in out_df.columns:
+            print("Rozkład modality:", out_df["modality"].value_counts(dropna=False))
     print("-" * 30)
 
 
