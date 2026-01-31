@@ -3,65 +3,106 @@ import librosa
 import soundfile as sf
 import pandas as pd
 
-def fix_imbalance_with_windows(csv_path, input_dir, output_dir):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
 
+def _ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+
+def _is_normal_label(label) -> bool:
+    return str(label).strip().lower() == "normal"
+
+
+def segment_from_split_csv(
+    csv_path: str,
+    audio_root: str = "Sound",
+    output_root: str = "Sound_segmented",
+    win_sec: float = 2.0,
+    normal_step_sec: float = 0.5,
+) -> None:
     df = pd.read_csv(csv_path)
-    
-    if 'Heart Sound ID' in df.columns:
-        name_col = 'Heart Sound ID'
-        label_col = 'Heart Sound Type'
-    elif 'Lung Sound ID' in df.columns:
-        name_col = 'Lung Sound ID'
-        label_col = 'Lung Sound Type'
-    else:
-        print(f"BŁĄD: Nie znane kolumny w {csv_path}")
-        return
+
+    required = {"filename", "label"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"CSV {csv_path} missing columns: {sorted(missing)}")
+
+    # nazwa splitu: train.csv -> train, csv_files/train.csv -> train
+    split_name = os.path.splitext(os.path.basename(csv_path))[0]
 
     new_segments = []
-    win_sec = 2.0  
 
-    print(f"Przetwarzam {len(df)} nagrań z {csv_path}...")
+    print(f"[{split_name}] Przetwarzam {len(df)} plików z {csv_path}...")
 
     for _, row in df.iterrows():
-        raw_id = str(row[name_col])
-        fname = raw_id if raw_id.endswith('.wav') else raw_id + '.wav'
-        path = os.path.join(input_dir, fname)
-        
-        if not os.path.exists(path):
+        rel_path = str(row["filename"]).strip().replace("\\", "/")
+        label_text = row["label"]
+        source = str(row["source"]).strip() if "source" in df.columns else "UNKNOWN"
+
+        input_path = os.path.join(audio_root, rel_path)
+
+        # Mała pomoc na wypadek MIX vs Mix
+        if not os.path.exists(input_path) and rel_path.startswith("MIX/"):
+            input_path_alt = os.path.join(audio_root, "Mix", rel_path[len("MIX/"):])
+            if os.path.exists(input_path_alt):
+                input_path = input_path_alt
+
+        if not os.path.exists(input_path):
+            # plik z CSV nie istnieje na dysku -> pomijamy
             continue
 
         try:
-            y, sr = librosa.load(path, sr=None)
-        except Exception as e:
+            y, sr = librosa.load(input_path, sr=None)
+        except Exception:
             continue
 
         win_len = int(win_sec * sr)
-        
-        label_val = str(row[label_col])
-        is_normal = 'normal' in label_val.lower()
-        
-        step = int(0.5 * sr) if is_normal else win_len
+        if win_len <= 0 or len(y) < win_len:
+            continue
+
+        is_normal = _is_normal_label(label_text)
+        step = int(normal_step_sec * sr) if is_normal else win_len
+        if step <= 0:
+            step = win_len
+
+        out_dir = os.path.join(output_root, split_name, f"{source}_segmented")
+        _ensure_dir(out_dir)
+
+        stem = os.path.splitext(os.path.basename(rel_path))[0]
 
         count = 0
         for start in range(0, len(y) - win_len + 1, step):
             segment = y[start : start + win_len]
-            seg_name = f"{raw_id.replace('.wav', '')}_seg_{count}.wav"
-            sf.write(os.path.join(output_dir, seg_name), segment, sr)
-            
-            new_segments.append({'filename': seg_name, 'label': 0 if is_normal else 1})
+            seg_name = f"{stem}_seg_{count}.wav"
+            out_path = os.path.join(out_dir, seg_name)
+            sf.write(out_path, segment, sr)
+
+            # zapisuj ścieżkę względną od output_root (wygodne do późniejszego użycia)
+            seg_rel = os.path.join(split_name, f"{source}_segmented", seg_name).replace("\\", "/")
+            new_segments.append(
+                {
+                    "filename": seg_rel,
+                    "label": 0 if is_normal else 1,
+                    "label_text": "Normal" if is_normal else "Pathology",
+                    "source": source,
+                    "original_filename": rel_path,
+                }
+            )
             count += 1
 
-    new_df = pd.DataFrame(new_segments)
-    output_csv = csv_path.replace(".csv", "_segmented.csv")
-    new_df.to_csv(output_csv, index=False)
-    
-    print(f"Sukces! Stworzono {len(new_df)} fragmentów.")
-    print(f"Podział klas (0=Normal, 1=Pathology):")
-    print(new_df['label'].value_counts(normalize=True))
+    out_csv = os.path.join(os.path.dirname(csv_path), f"{split_name}_segmented.csv")
+    pd.DataFrame(new_segments).to_csv(out_csv, index=False)
+
+    print(f"[{split_name}] Sukces! Stworzono {len(new_segments)} segmentów.")
+    if new_segments:
+        out_df = pd.DataFrame(new_segments)
+        print(out_df["label"].value_counts(normalize=True))
     print("-" * 30)
 
+
 if __name__ == "__main__":
-    fix_imbalance_with_windows('csv_files/HS.csv', 'Sound/HS', 'Sound/HS_segmented')
-    fix_imbalance_with_windows('csv_files/LS.csv', 'Sound/LS', 'Sound/LS_segmented')
+    for split in ["train", "val", "test"]:
+        p = os.path.join("csv_files", f"{split}.csv")
+        if os.path.exists(p):
+            segment_from_split_csv(p)
+        else:
+            print(f"Pomijam, brak pliku: {p}")
